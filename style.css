@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.board{
+    display: flex;
+    flex-direction: row;
+}
+.key{
+    height:300px;
+    width: 80px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    text-align: center;
+    transform: rotate(deg);
+    
+}
+.key:hover{
+    background-color: rgb(192, 194, 194);
+}
